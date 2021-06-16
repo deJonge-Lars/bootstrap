@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+    <head>
+        <title>Darkmode | Lars de Jonge</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="./images/general/favicon.ico"/>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/darkmode.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+    </head>
+    <body class="work">
+        <nav id="navigation" class="navbar navbar-expand-md fixed-top py-4 px-5 navbar-dark">
+            <a class="navbar-brand"><img src="./images/general/ldjlogo.png" class="logo w-50"/></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2"><a href="index" class="nav-link">Home</a></li>
+                    <li class="nav-item mx-2"><a href="about" class="nav-link">About</a></li>
+                    <li class="nav-item mx-2 active"><a href="work" class="nav-link">Work</a></li>
+                    <li class="nav-item mx-2"><a href="contact.php" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="project_front">
+            <div class="header container-fluid">
+                <div class="container small-width d-flex align-items-center text-center justify-content-center">
+                    <div class="multi mt-5">
+                    <h1 class="heading text-uppercase">Dark</h1>
+                    <div class="devider"></div>
+                    <h3 class="project-style p-4 text-uppercase">Hit The Button</h3>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    
+        
+                    
+        <section class="projects_area container my-5 p-0">
+            <div class="col">
+                <div class="the-project d-inline-flex">
+                    <div class="client-project mr-4">
+                        <h6 class="mb-0 text-uppercase">Project</h6>
+                        <p class="mb-4">Dark Page</p>
+                        <h6 class="mb-0 text-uppercase">Date</h6>
+                        <p class="mb-4">14 Juni 2020</p>
+                        <div class="toggle-container">
+                        <h6 class="text-uppercase">Dark Mode</h6>
+                        <input type="checkbox" id="switch" name="theme" class="mb-5" /><label for="switch">Toggle</label>
+                        </div>
+                    </div>
+                    <div class="details-project">
+                        <h6 class="mb-0 text-uppercase">Details</h6>
+                        <p class="mb-3">Today I wanted to create a webpage that I could turn from a light theme style into a dark theme style with a single click on a button. This is also the first time ever that I have created something like this. I did it in a trial way. If I would have made a dark theme option for my whole portfolio, I would have done it differently for sure. The thing I would have done if I made it for my whole portofolio is by creating variable styles that I could easily call on. <br> How I have done it now is true instead of using <b>html['data-theme=dark']</b> and then the class or something else.</p>
+                    </div>
+                </div>
+
+                <div class="gallery">
+                     <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test1.jpg">
+                    </div>
+
+                    <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test4.jpg">
+                    </div>
+
+                     <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test7.jpg">
+                    </div>
+                     <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test2.jpg">
+                    </div>
+
+                    <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test5.jpg">
+                    </div>
+
+                     <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test8.jpg">
+                    </div>
+                    <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding//test3.jpg">
+                    </div>
+
+                    <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test6.jpg">
+                    </div>
+
+                     <div class="mb-3">
+                        <img class="img-fluid" src="/projects/photo/wedding/test9.jpg">
+                    </div>
+                 </div>
+            </div>
+        </section>
+
+        <section class="prevnext_area px-5">
+            <div class="row">
+                <div class="col d-flex justify-content-start align-items-center">
+                    <a href="/bootstrap/tryout" class="option py-4"><i class="fas fa-angle-left"></i> Previous Project</a>
+                </div>
+                <div class="col d-flex justify-content-end align-items-center">
+                    <a href="/bootstrap/tryout" class="option py-4">Next Project <i class="fas fa-angle-right"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="py-3 text-center">
+            <div class="container">
+                <span class="m-0">Copyright &copy; l Lars de Jonge</span>
+            </div>
+        </footer>
+
+        <button id="btn-top"><i class="fas fa-angle-double-up"></i></button>
+
+        <script src="js/header.js"></script><script src="js/top.js"></script><script src="js/darkmode.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+    </body>
+</html>

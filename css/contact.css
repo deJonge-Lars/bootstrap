@@ -1,0 +1,31 @@
+/* ---- Contact CSS ---- */
+/* General Contact */
+body {font-weight: 400; font-family: monospace, sans-serif; color: #fff;}
+
+.contact_header {background: url('../images/general/mountains.jpg') no-repeat 50% 50%; background-size: cover;}
+.container.small-width {min-height: 17.8125em;}
+/* End General Contact */
+
+/* Contact Info */
+.main-contact {background-image: url(../images/general/contact.png); background-repeat: no-repeat; background-position: left center;}
+.md-form {margin-left: 5%;}
+
+.form-quote {font-weight: 700; letter-spacing: 0.2rem !important; text-transform: uppercase; color: #ff9000;}
+
+p.form-sub {font-family: Montserrat,sans-serif; color: #999;}
+
+@media only screen and (max-width: 768px) {.main-contact {padding-top: 30px;} .social-icon {margin-right: 0.5em;}}
+/* End Contact Info*/
+
+/* Contact Form */
+.input {width: 100%; color: #ff9000; background-color: transparent; border: none; outline: none; border-bottom: 1px solid rgba(5, 54, 77); 
+        transition: all 1s ease;}
+textarea.input-big {width: 100%; color: #ff9000; background-color: transparent; border: none; outline: none; resize: none;
+                    border-bottom: 1px solid rgba(5, 54, 77);}
+.input:active, .input:hover {border-bottom: 1px solid #ff9000;}
+::placeholder{color: #05364d;}
+
+.small-info{font-size: 0.7em; font-family: monospace, sans-serif; color: #999; opacity: .7;}
+
+@media only screen and (max-width: 768px) {.md-form {margin-left: 0;}}
+/* End Concact form */

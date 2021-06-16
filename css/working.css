@@ -1,0 +1,27 @@
+/* ---- Work CSS ---- */
+/* Work General */
+.work_header {background: url('../images/general/mountains.jpg') no-repeat 50% 50%; background-size: cover;}
+.container.small-width {min-height: 17.8125em;}
+.work {font-family: Montserrat,sans-serif;}
+/* End Work General */
+
+/* Work Projects */
+.client img {opacity: .4; transition: all .3s ease-in-out;}
+.client img:hover { opacity: 1; transition: all .3s ease-in-out;}
+@media (max-width: 990px){.row.clients.mt-4.mb-3 {margin-top: 100px !important;}}
+@media (max-width: 768px){.c2 {display: none !important;}}
+
+.brand {height: 110px; width: 110px; border: #eaeaea 5px solid;}
+
+a.select {font-weight: 700; letter-spacing: 1px; text-transform: uppercase; text-decoration: none; color: #05364d; border: 1px solid transparent;
+        border-radius: 3px; cursor: pointer;}
+a.select.active {color: #ff9000;}
+span.g {color: #05364d;}
+
+/*.gallery div{ display: inline-block;}*/
+.filter {width: 33%;}
+.gallery img {padding: 0 10px 10px 0;}
+
+@media only screen and (max-width: 1024px) {.brand{height: 100px; width: 100px; border-width: 4px;} .filter {width: 50%;}}
+@media only screen and (max-width: 512px) {.brand{height: 80px; width: 80px;}.filter {width: 100%;}}
+/* End Work Projects */

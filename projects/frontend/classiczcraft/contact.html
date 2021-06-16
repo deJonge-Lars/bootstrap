@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+
+<!-- Site Title -->
+<title>ClassiczCraftServer</title>
+
+<!-- Styles -->
+<link rel="stylesheet" href="style/layout.css">
+<link href='http://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'> <!-- Google Font (Replace with own if needed) -->
+
+<!-- Javascript -->
+<script src="js/jquery00.js"></script>
+<script src="js/ticker00.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#items').list_ticker({
+			speed:5000,
+			effect:'fade'
+		});	
+	})
+</script>
+</head>
+<body>
+
+<!-- Site Header -->
+<div id="header">
+	<div id="logo">
+		<h1></h1> <!-- Site's Title on line 36 and 42 in layout.css  -->
+	</div>
+</div>
+
+	<!-- Navigation Bar -->
+	
+	<div id="nav">
+		<div id="nav_holder">
+
+		<ul>
+				<li class="first"><a href="index.html"> Home </a> </li>
+				<li><a href="informatie.html"> Regels </a> </li>
+				<li><a href="doneren.html"> Doneren </a> </li>
+				<li><a href="contact.html"> Contact </a> </li>
+			</ul>
+			
+			<ul class="right">
+				<li><a href="media.html"> Social Media </a> </li>
+			</ul>
+		
+		</div>
+	</div>
+		
+	
+		<!-- Main Content -->
+		
+		<div class="sub_header">
+		
+		
+		<!-- Announcements Ribbon -->
+		
+		<div class="announcement">
+				<ul id="items">
+				
+				<!-- Replace these with your messages -->
+				
+				<li>Welkom op de ClassiczCraft website.</li>
+				<li>Kom hier alles te weten over de Server.</li>
+				<li>Doneer om de server nog meer te laten groeien.</li>
+				<li>Server's Ip is ClassiczCraft.com</li>
+				
+			</ul>
+		
+		</div>
+		 <!-- Creates the ribbon feel -->
+		<div class="triangle-l"></div>
+		<div class="triangle-r"></div>
+		
+		</div>
+		
+		<!-- End of Header and Sub-Header -->
+		
+		
+		<!--
+		====================================
+			Now The Main Content Begins
+		====================================
+		-->
+		
+		
+		<!-- Content Container -->
+		
+		<!-- Content Container -->
+		<div id="content_container">
+				
+		<!-- Right Content -->
+		<div class="right_content"> 
+        	<!-- Title -->
+            <h1> Contact </h1>
+			<!-- This is dummy text. You can change it to whatever you like -->
+			<p>
+                <form action="#" method="post">
+                    <b>Je spelers naam:</b><br>
+                <input type="text" name="username" /><br><br>
+                    <b>Je E-mailadres:</b><br />
+                <input type="text" name="email" size="30px"/>
+			<br /> <br />
+
+			     <b>Je bericht:</b><br />
+                    <textarea name="comments" rows="20" cols="60" class="textarea"></textarea><br>
+                    <input type="checkbox" name="TOS" value="Ik accepteer de algemene voorwaarden">Ik accepteer de algemene voorwaarden en ik maak geen misbruik van dit contact formulier.<br>
+			         <input type="submit" value="Verstuur">
+                </form>
+            </p>
+					
+		<div class="footer">
+		
+		<p>Copyright &copy; 2013 - ClassiczCraft 
+		
+		</div>
+			
+		</div>	
+		
+		<!-- Sidebar. You can either have one long sidebar or multiple "widgets" -->
+		
+		<div class="sidebar">
+		
+		<h3 class="address">Server Address</h3>
+		<p class="address">ClassiczCraft.net</p>
+		
+		</div>
+		
+		<div class="sidebar">
+		
+						<!-- Change To Online or Offline depending on your server status -->
+		<h3>Server Status: </h3> <div class="offline"></div>
+		
+		</div>
+
+</div>	
+</body>
+</html>

@@ -1,0 +1,35 @@
+/* ---- Projects CSS ---- */
+/* General */
+.container.small-width {min-height: 17.8125em;}
+/* End General */
+
+/* Project Style */
+.linked {font-size: 1em; font-family: 'Montserrat', sans-serif; color: #ff9000; font-weight: 500;} .linked:hover {color:#ff9000;}
+.client-project {-ms-flex: 0 0 16.666667%;flex: 0 0 16.666667%;max-width: 16.666667%;}
+.details-project {-ms-flex: 0 0 83.333333%;flex: 0 0 80.333333%;max-width: 80.333333%;}
+@media only screen and (max-width: 1024px) {.details-project {padding-left: 25px;}}
+@media only screen and (max-width: 512px) {.the-project {display: block !important;} .client-project, .details-project{max-width: 100%; padding: 0;}}
+/* End Project Style */
+
+/* Photo Style */
+.gallery {-webkit-column-count: 3; -moz-column-count: 3; column-count: 3; -webkit-column-width: 33%; -moz-column-width: 33%; column-width: 33%;}
+
+@media only screen and (max-width: 512px) {
+    .the-photos img{margin-bottom: 20px;}
+    .gallery {-webkit-column-count: 1; -moz-column-count: 1; column-count: 1; -webkit-column-width: 100%; -moz-column-width: 100%; column-width: 100%;}
+}
+/* End Photo Style */
+
+/* Begin <Prev Next> */
+.prevnext_area {background: #f9f9f9;}
+a.option {font-size: 1em; font-weight: 500;font-family: Montserrat,sans-serif; color: #05364d; transition: 1s;}
+a.option:hover {color: #ff9000; text-decoration: none; transition-duration: 1s;}
+/* End <Prev Next> */
+
+/* The Project Headers */
+.project_design{background: url('../images/work/bg/design.jpg') no-repeat 50% 50%; background-size: cover;}
+.project_ux{background: url('../images/work/bg/uxui.jpg') no-repeat 50% 50%; background-size: cover;}
+.project_frontend{background: url('../images/work/bg/frontend.jpg') no-repeat 50% 50%; background-size: cover;}
+.project_photo{background: url('../images/work/bg/photography.jpg') no-repeat 50% 50%; background-size: cover;}
+.project_video{background: url('../images/work/bg/video.jpg') no-repeat 50% 50%; background-size: cover;}
+/* End The Project Headers */ 

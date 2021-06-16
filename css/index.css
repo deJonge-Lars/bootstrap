@@ -1,0 +1,47 @@
+/* ---- Homepage CSS ---- */
+/*color: #212529;*/
+
+/* Welcome */
+.intro {background: url('../images/general/mountains.jpg') no-repeat 50% 50%; background-size: cover;}
+.home {min-height: 100vh; background: rgba(255, 144, 0, 0.9);}
+.home .container > * {margin-bottom: 30px;}
+.home img {width: 200px; height: 200px; border-radius: 50%; object-fit: cover;}
+.space {font-size: 1rem; font-family: "Space Mono", Arial, serif;letter-spacing: 1px;}
+/* End Welcome */
+
+/* Clients */
+/*.clients .client{margin: 0 -5px -5px 0;border: #eaeaea 5px solid;}*/
+.client img {opacity: .4; transition: all .3s ease-in-out;}
+.client img:hover { opacity: 1; transition: all .3s ease-in-out;}
+@media (max-width: 768px){.c2 {display: none !important;}}
+/*End Clients */
+
+/* Contact */
+.contact { background: url('../images/general/contactredirect.jpg') no-repeat 50% 50% / cover;}
+
+.btn-contact {font-family: Montserrat, sans-serif; letter-spacing: .03em; color: #fff; background: #05364d; transition: 1s;}
+.btn-contact:hover {color: #05364d; background: #fff;}
+/* End Contact */
+
+/* End Homepage */
+
+/* Mouse Features */
+    .mouse {position: absolute; bottom: 40px; left: 50%; margin: 0 auto; margin-left: -14px; width: 1.625em; height: 3em;
+            border-radius: 1em; border: 2px solid #fff;}
+
+    .mousespan {display: block; width: 4px; height: 4px; margin: 6px auto; border-radius: 4px; background: #fff; border: 1px solid transparent;
+                -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both;-webkit-animation-iteration-count: infinite; animation-iteration-count: infinite; -webkit-animation-name: scroll; animation-name: scroll;}
+
+    @-webkit-keyframes scroll {
+      0% {opacity: 1; -webkit-transform: translateY(0); transform: translateY(0);}
+      100% {opacity: 0; -webkit-transform: translateY(20px); transform: translateY(20px);}
+    }
+
+
+    @keyframes scroll {
+      0% {opacity: 1; transform: translateY(0);}
+      100% {opacity: 0; transform: translateY(20px);}
+    }
+
+    @media only screen and (max-width: 512px) {.mouse {display: none;}}
+/* End Mouse */
