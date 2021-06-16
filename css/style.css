@@ -257,7 +257,7 @@ li.nav-item {
 .btn-custom {
   font-family: Montserrat, sans-serif;
   letter-spacing: 0.03em;
-  background: #05364d !important;
+  background: #05364d;
   transition: 1s;
 }
 .btn-custom:hover {
